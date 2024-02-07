@@ -30,14 +30,14 @@ export const Skill_data = [
         height: 80,
     },
     {
-        skill_name: "Redux",
-        Image: "/redux.png",
-        width: 80,
-        height: 80,
+        skill_name: "Java",
+        Image: "/Java.png",
+        width: 90,
+        height: 90,
     },
     {
-        skill_name: "React Query",
-        Image: "/reactquery.png",
+        skill_name: "Python",
+        Image: "/Python.png",
         width: 80,
         height: 80,
     },
@@ -82,16 +82,19 @@ export const Skill_data = [
 
 export const Socials = [
     {
-        name: "Discord",
-        src: "/instagram.svg",
+        name: "Github",
+        src: "/github.svg",
+        url: "https://github.com/Gandara247"
     },
     {
-        name: "Facebook",
-        src: "/facebook.svg",
+        name: "Linkedin",
+        src: "/linkedin.svg",
+        url: "https://www.linkedin.com/in/gandara-silva"
     },
     {
-        name: "Instagram",
+        name: "discord",
         src: "/discord.svg",
+        url: "https://discord.com/users/tiago1155"
     },
 ];
 

@@ -17,14 +17,14 @@ const HeroContent = () => {
                     variants={slideInFromTop}
                     className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]">
                     <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                    <h1 className='Welcome-text text-[13px]'>Fullstack Developer Portifolio</h1>
+                    <h1 className='Welcome-text text-[13px]'>Fullstack Developer Portifolio | V-0.0.1</h1>
                 </motion.div>
                 <motion.div
                     variants={slideInFromLeft(0.5)}
                     className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'>
                     <span>
-                        Providing
-                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
+                        Bem vindo ao
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Gandara Verso </span>
                         project experience
                     </span>
                 </motion.div>
@@ -32,21 +32,24 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'
                 >
-                    I&apos;m a Full Stack Software Engineer with experience in Website, Mobilem and Software development. Check out my projects and skills.
+                    Olá! Sou o Gandara, um estudante de Engenharia de Software apaixonado por desenvolvimento de software e segurança cibernética. Estou animado para compartilhar meus projetos e conhecimentos com você.
                 </motion.p>
                 <motion.a
                     variants={slideInFromLeft(1)}
                     className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+                    href= "https://www.linkedin.com/in/gandara-silva"
+                    target='_blank'
                 >
-                    Learn More!
+                    Saiba mais no Linkedin
                 </motion.a>
             </div>
             <motion.div
                 variants={slideInFromRight(0.8)}
                 className='w-full h-full flex justify-center items-center'
+                
             >
                 <Image
-                    src="/mainIconsdark.svg"
+                    src="/planetsscript.png"
                     alt="work icons"
                     height={650}
                     width={650}
