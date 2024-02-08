@@ -1,8 +1,8 @@
 "use client"
 
 import React from 'react'
-import { delay, motion } from 'framer-motion'
-import { useInView } from "react-intersection-observer"
+import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
 import Image from 'next/image';
 
 interface Props {
@@ -11,14 +11,17 @@ interface Props {
     height: number;
     index: number;
 }
+
 const SkillDataProvider = ({ src, width, height, index }: Props) => {
     const { ref, inView } = useInView({
         triggerOnce: true
     })
+
     const imageVariants = {
         hidden: { opacity: 0 },
         visible: { opacity: 1 }
     }
+
     const animationDelay = 0.3
     return (
         <motion.div
