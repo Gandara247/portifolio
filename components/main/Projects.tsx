@@ -3,28 +3,40 @@ import ProjectCard from "../sub/ProjectCard";
 
 const Projects = () => {
     return (
-        <div
-            className="flex flex-col items-center justify-center py-20"
-            id="projects"
-        >
+        <div className="flex flex-col items-center justify-center py-20" id="projects">
             <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
                 Meus Projetos
             </h1>
-            <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
                 <ProjectCard
-                    src="/NextWebsite.png"
-                    title="Modern Next.js Portfolio"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    src="/calma.png"
+                    title="Plataforma de acessoria acadêmica"
+                    description="Através desta intuitiva plataforma, o usuário pode solicitar assessoria para seus trabalhos acadêmicos, assim como comprar alguns artigos relacionados."
                 />
                 <ProjectCard
-                    src="/CardImage.png"
-                    title="Interactive Website Cards"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    src="/BlueTech.png"
+                    title="E-commerce de produtos eletronicos"
+                    description="Um moderno e responsivo e-commerce de produtos eletronicos completo "
                 />
                 <ProjectCard
-                    src="/SpaceWebsite.png"
-                    title="Space Themed Website"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    src="/Criptor.png"
+                    title="Aplicação para encriptar e desencritar frases"
+                    description="Ferramenta desenvolvida durante Oracle Nex Education. Através desse app, o usuário pode criptografar e decriptografar palavras e frases."
+                />
+                <ProjectCard
+                    src="/Dindin.png"
+                    title="Plataforma de educação financeira"
+                    description="Contando com dicas, artigos e vídeos para auxiliar na educação financeira."
+                />
+                <ProjectCard
+                    src="/Porti.png"
+                    title="Meu portifolio"
+                    description="Simplesmente um marco na minha historia e esse é só o começo"
+                />
+                <ProjectCard
+                    src="/Omma.png"
+                    title="Site de receitas"
+                    description="Adoro cozinhar, então fazer esse site foi uma delicia e fiquei com fome durante todo o processo🤤🤤"
                 />
             </div>
         </div>
