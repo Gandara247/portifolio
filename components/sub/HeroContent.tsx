@@ -38,7 +38,7 @@ const HeroContent = () => {
                             {" "}
                             Gandara Verso{" "}
                         </span>
-                        project exprience
+                        project experience
                     </span>
                 </motion.div>
 
