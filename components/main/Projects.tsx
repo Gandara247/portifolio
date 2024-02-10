@@ -10,33 +10,33 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
                 <ProjectCard
                     src="/calma.png"
-                    title="Plataforma de acessoria acadêmica"
+                    title="Plataforma de assessoria acadêmica"
                     description="Através desta intuitiva plataforma, o usuário pode solicitar assessoria para seus trabalhos acadêmicos, assim como comprar alguns artigos relacionados."
                 />
                 <ProjectCard
                     src="/BlueTech.png"
-                    title="E-commerce de produtos eletronicos"
+                    title="E-commerce de produtos eletrônicos"
                     description="Um moderno e responsivo e-commerce de produtos eletronicos completo "
                 />
                 <ProjectCard
                     src="/Criptor.png"
-                    title="Aplicação para encriptar e desencritar frases"
-                    description="Ferramenta desenvolvida durante Oracle Nex Education. Através desse app, o usuário pode criptografar e decriptografar palavras e frases."
+                    title="Aplicação para encriptar e desencriptar frases"
+                    description="Ferramenta desenvolvida durante Oracle Nex Education. Através desse app, o usuário pode criptografar e desencriptografar palavras e frases."
                 />
                 <ProjectCard
                     src="/Dindin.png"
                     title="Plataforma de educação financeira"
-                    description="Contando com dicas, artigos e vídeos para auxiliar na educação financeira."
+                    description="Contém  dicas, artigos e vídeos para auxiliar na educação financeira."
                 />
                 <ProjectCard
                     src="/Porti.png"
-                    title="Meu portifolio"
-                    description="Simplesmente um marco na minha historia e esse é só o começo"
+                    title="Meu portfólio"
+                    description="Simplesmente um marco na minha história e esse é só o começo"
                 />
                 <ProjectCard
                     src="/Omma.png"
                     title="Site de receitas"
-                    description="Adoro cozinhar, então fazer esse site foi uma delicia e fiquei com fome durante todo o processo🤤🤤"
+                    description="Adoro cozinhar, então fazer esse site foi uma delícia e fiquei com fome durante todo o processo🤤🤤"
                 />
             </div>
         </div>
